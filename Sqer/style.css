@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.box1{
+    border: 2px solid;
+    background-color: red;
+    top: 50px;
+    left: 50px;
+    
+}
+.box2{
+    border: 2px solid ;
+    background-color: green;
+    top: 150px;
+    left: 150px;
+    z-index: 1;
+   
+}
+.box3{
+    border: 2px solid ;
+    background-color: blue;
+    top: 250px;
+    left: 250px;
+}
+.box2:hover{
+    transform: scale(1.15) rotate(45deg);
+    transition: 1s;
+}
